@@ -40,29 +40,32 @@ a {
   color: #d21034;
 }
 
-.container {
-  width: 1024px;
-  margin: 0 auto;
-}
 
-#main-bio,
-#contact-info,
-#bio-image {
+section{
+
   float: left;
-
-
+  margin: 20px;
 }
 
-#main-bio {
-  width: 70%;
-}
+article{
 
-#contact-info {
+    width: 68%;
+    float: left;
+}
+aside{
+
+  float: left;
   width: 30%;
+  margin-left: 10px;
 }
 
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
+.nav{
+  font-size: 28px;
+  color: #eee;
+  text-align: right;
+  margin-right: 60px;
+}
+
+.dateSig{
+  margin-left: 20px;
 }
